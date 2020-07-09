@@ -1,0 +1,988 @@
+<!DOCTYPE html><html><head hexo-theme="https://volantis.js.org/#2.6.6">
+  <meta charset="utf-8">
+  <!-- SEO相关 -->
+  
+    
+  
+  <!-- 渲染优化 -->
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- 页面元数据 -->
+  
+    <title>&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;webstack&#x7684;hexo&#x4E3B;&#x9898; - HCLonely Blog</title>
+  
+    <meta name="keywords" content="Hexo,&#x4E3B;&#x9898;">
+  
+  
+    <meta name="description" content="
+&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;WebStackPage&#x7684; Hexo &#x4E3B;&#x9898;&#x3002;Demo
+
+">
+  
+
+  <!-- feed -->
+  
+    <link rel="alternate" href="/atom.xml" title="HCLonely Blog">
+  
+
+  <!-- import meta -->
+  
+
+  <!-- link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13/css/all.min.css">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.css">
+
+  
+
+  
+
+  
+
+  
+
+  <!-- import link -->
+  
+
+  
+    
+      
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/styles/solarized-light.css">
+
+    
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HCLonely/volantis.hclonely.com@gh-pages/css/style.css">
+
+  
+
+  <script>
+    function setLoadingBarProgress(num) {
+      document.getElementById('loading-bar').style.width=num+"%";
+    }
+  </script>
+
+  
+  
+</head>
+<body>
+
+  <div id="loading-bar-wrapper">
+  <div id="loading-bar"></div>
+</div>
+<header class="l_header shadow floatable blur">
+  <div class="container">
+  <div class="wrapper">
+    <div class="nav-sub">
+      <p class="title"></p>
+      <ul class="switcher nav-list-h">
+        <li><a class="s-comment fas fa-comments fa-fw" target="_self" href="javascript:void(0)"></a></li>
+        
+          <li><a class="s-toc fas fa-list fa-fw" target="_self" href="javascript:void(0)"></a></li>
+        
+      </ul>
+    </div>
+		<div class="nav-main">
+      
+        
+        <a class="title flat-box" target="_self" href="/">
+          
+          
+          
+            HCLonely
+          
+          
+        </a>
+      
+
+			<div class="menu navigation">
+				<ul class="nav-list-h">
+          
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  <i class="fas fa-home fa-fw"></i>&#x9996;&#x9875;
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/tags" id="tags">
+                  <i class="fas fa-tags fa-fw"></i>&#x6807;&#x7B7E;
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/categories" id="categories">
+                  <i class="fas fa-bookmark fa-fw"></i>&#x5206;&#x7C7B;
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="/archives" id="archives">
+                  <i class="fas fa-archive fa-fw"></i>&#x65F6;&#x95F4;&#x8F74;
+                </a>
+                
+              </li>
+            
+          
+          
+            
+            
+              <li>
+                <a class="flat-box" href="https://blog.hclonely.com/" target="_blank" id="https:bloghclonelycom">
+                  <i class="fas fa-blog fa-fw"></i>&#x4E3B;&#x7AD9;
+                </a>
+                
+              </li>
+            
+          
+          
+				</ul>
+			</div>
+
+      <div class="m_search">
+        <form name="searchform" class="form u-search-form">
+          <i class="icon fas fa-search fa-fw"></i>
+          <input type="text" class="input u-search-input" placeholder="&#x641C;&#x7D22;&#x6587;&#x7AE0;">
+        </form>
+      </div>
+
+			<ul class="switcher nav-list-h">
+				
+					<li><a class="s-search fas fa-search fa-fw" target="_self" href="javascript:void(0)"></a></li>
+				
+				<li>
+          <a class="s-menu fas fa-bars fa-fw" target="_self" href="javascript:void(0)"></a>
+          <ul class="menu-phone list-v navigation white-box">
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/" id="home">
+                  <i class="fas fa-home fa-fw"></i>&#x9996;&#x9875;
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/tags" id="tags">
+                  <i class="fas fa-tags fa-fw"></i>&#x6807;&#x7B7E;
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/categories" id="categories">
+                  <i class="fas fa-bookmark fa-fw"></i>&#x5206;&#x7C7B;
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="/archives" id="archives">
+                  <i class="fas fa-archive fa-fw"></i>&#x65F6;&#x95F4;&#x8F74;
+                </a>
+                
+              </li>
+            
+          
+            
+              
+            
+              <li>
+                <a class="flat-box" href="https://blog.hclonely.com/" target="_blank" id="https:bloghclonelycom">
+                  <i class="fas fa-blog fa-fw"></i>&#x4E3B;&#x7AD9;
+                </a>
+                
+              </li>
+            
+          
+            
+          </ul>
+        </li>
+			</ul>
+		</div>
+	</div>
+  </div>
+</header>
+
+<script>setLoadingBarProgress(40);</script>
+
+
+
+  <div class="l_body">
+    <div class="body-wrapper">
+      
+<div class="l_main">
+  <article id="post" class="post white-box reveal shadow article-type-post" itemscope itemprop="blogPost">
+      <section class="meta">
+    
+      
+      
+      <div class="meta" id="header-meta">
+        
+          <h1 class="title">
+    <a href="/posts/3cd4fb34/">
+      &#x4E00;&#x6B3E;&#x57FA;&#x4E8E;webstack&#x7684;hexo&#x4E3B;&#x9898;
+    </a>
+  </h1>
+
+
+        
+        <div class="new-meta-box">
+          
+            
+          
+            
+              <div class="new-meta-item author">
+  <a href="https://blog.hclonely.com" target="_blank" rel="nofollow noopener">
+    <img src="https://cdn.jsdelivr.net/gh/HCLonely/hclonely.github.io@latest/img/avatar.jpg">
+    <p>HCLonely</p>
+  </a>
+</div>
+
+            
+          
+            
+              <div class="new-meta-item category">
+    <a href="/categories/Hexo/%E4%B8%BB%E9%A2%98/" rel="nofollow">
+      <i class="fas fa-folder-open fa-fw" aria-hidden="true"></i>
+      <p>Hexo/&#x4E3B;&#x9898;</p>
+    </a>
+  </div>
+
+
+            
+          
+            
+              <div class="new-meta-item date">
+  <a class="notlink">
+    <i class="fas fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>&#x53D1;&#x5E03;&#x4E8E;&#xFF1A;2020&#x5E74;6&#x6708;5&#x65E5;</p>
+  </a>
+</div>
+
+            
+          
+            
+              
+            
+          
+        </div>
+        
+          <hr>
+        
+      </div>
+    
+  </section>
+
+
+      <section class="article typo">
+        <div class="article-entry" itemprop="articleBody">
+          
+          <div class="note danger no-icon"><p>&#x5206;&#x7AD9;&#x5185;&#x5BB9;&#x53EF;&#x80FD;&#x6216;&#x51FA;&#x73B0;&#x6E32;&#x67D3;&#x9519;&#x8BEF;&#x6216;&#x5185;&#x5BB9;&#x8FC7;&#x65F6;&#x7B49;&#x95EE;&#x9898;&#xFF0C;&#x8BF7;&#x4EE5;<a href="javascript:void(0)" onclick="window.location.host=&apos;blog.hclonely.com&apos;">&#x4E3B;&#x7AD9;</a>&#x4E3A;&#x51C6;&#xFF01;<br>&#x5206;&#x7AD9;&#x7981;&#x6B62;&#x8BC4;&#x8BBA;&#xFF0C;&#x8BC4;&#x8BBA;&#x8BF7;&#x524D;&#x5F80;<a href="javascript:void(0)" onclick="window.location.host=&apos;blog.hclonely.com&apos;">&#x4E3B;&#x7AD9;</a>&#xFF01;</p></div><blockquote>
+<p>&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;<a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank" rel="noopener">WebStackPage</a>&#x7684; Hexo &#x4E3B;&#x9898;&#x3002;<a href="https://webstack.hclonely.com/" target="_blank" rel="noopener">Demo</a></p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/HCLonely/hexo-theme-webstack@latest/screenshot/screenshot.png" alt="screenshot"></p>
+<a id="more"></a>
+<h2 id="&#x5B89;&#x88C5;"><a class="markdownIt-Anchor" href="#&#x5B89;&#x88C5;"></a> &#x5B89;&#x88C5;</h2>
+<pre class="highlight"><code class="shell">git clone https://github.com/HCLonely/hexo-theme-webstack themes/webstack
+</code></pre>
+<h2 id="&#x914D;&#x7F6E;"><a class="markdownIt-Anchor" href="#&#x914D;&#x7F6E;"></a> &#x914D;&#x7F6E;</h2>
+<h3 id="favicon"><a class="markdownIt-Anchor" href="#favicon"></a> favicon</h3>
+<blockquote>
+<p>&#x7F51;&#x7AD9;&#x56FE;&#x6807;</p>
+</blockquote>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">favicon:</span> <span class="hljs-string">/favicon.ico</span>
+</code></pre>
+<h3 id="banner"><a class="markdownIt-Anchor" href="#banner"></a> banner</h3>
+<blockquote>
+<p>[&#x53EF;&#x9009;]&#x5206;&#x4EAB;&#x7F51;&#x7AD9;&#x5230; twitter &#x548C; facebook &#x65F6;&#x7684;&#x56FE;&#x7247;&#x3002;</p>
+</blockquote>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">banner:</span> <span class="hljs-string">/images/webstack_banner_cn.png</span>
+</code></pre>
+<h3 id="logo"><a class="markdownIt-Anchor" href="#logo"></a> logo</h3>
+<blockquote>
+<p>&#x7F51;&#x7AD9; logo</p>
+</blockquote>
+<ul>
+<li><code>expanded</code>: &#x4FA7;&#x8FB9;&#x680F;&#x5C55;&#x5F00;&#x65F6;&#x5DE6;&#x4E0A;&#x89D2;&#x7684; logo<br>
+<img src="https://cdn.jsdelivr.net/gh/HCLonely/images@latest/post/3cd4fb34/expanded.webp" alt="expanded"></li>
+<li><code>collapsed</code>: &#x4FA7;&#x8FB9;&#x680F;&#x6536;&#x8D77;&#x65F6;&#x5DE6;&#x4E0A;&#x89D2;&#x7684; logo<br>
+<img src="https://cdn.jsdelivr.net/gh/HCLonely/images@latest/post/3cd4fb34/collapsed.webp" alt="collapsed"></li>
+<li><code>dark</code>: &#x9876;&#x680F;&#x4E3A;&#x6697;&#x8272;&#x65F6;&#x5DE6;&#x4E0A;&#x89D2;&#x7684; logo, &#x4EC5; <code>about</code> &#x9875;&#x9762;&#x751F;&#x6548;<br>
+<img src="https://cdn.jsdelivr.net/gh/HCLonely/images@latest/post/3cd4fb34/dark.webp" alt="dark"></li>
+</ul>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">logo:</span>
+  <span class="hljs-attr">expanded:</span> <span class="hljs-string">/images/logo@2x.png</span>
+  <span class="hljs-attr">collapsed:</span> <span class="hljs-string">/images/logo-collapsed@2x.png</span>
+  <span class="hljs-attr">dark:</span> <span class="hljs-string">/images/logo_dark@2x.png</span>
+</code></pre>
+<h3 id="flag"><a class="markdownIt-Anchor" href="#flag"></a> flag</h3>
+<blockquote>
+<p>&#x8BED;&#x8A00;&#x6807;&#x8BC6;</p>
+</blockquote>
+<ul>
+<li>icon: &#x8BED;&#x8A00;&#x56FE;&#x6807;&#xFF0C;&#x9ED8;&#x8BA4;&#x4EC5;&#x6709;<code>flag-cn</code>&#x548C;<code>flag-us</code>, &#x5176;&#x4ED6;&#x56FE;&#x6807;&#x81EA;&#x884C;&#x5BFB;&#x627E;&#x5B58;&#x653E;&#x4E8E;<code>&#x4E3B;&#x9898;&#x76EE;&#x5F55;/source/images/flags/</code></li>
+<li>name: &#x8BED;&#x8A00;&#x540D;&#x79F0;</li>
+</ul>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">flag:</span> 
+  <span class="hljs-attr">icon:</span> <span class="hljs-string">flag-cn</span>
+  <span class="hljs-attr">name:</span> <span class="hljs-string">Chinese</span>
+</code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/HCLonely/images@latest/post/3cd4fb34/flag.webp" alt="flag"></p>
+<h3 id="githubcorner"><a class="markdownIt-Anchor" href="#githubcorner"></a> githubCorner</h3>
+<blockquote>
+<p>&#x53F3;&#x4E0A;&#x89D2;&#x7684; <a href="http://tholman.com/github-corners/" target="_blank" rel="noopener">github corner</a></p>
+</blockquote>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">githubCorner:</span> <span class="hljs-string">&apos;&lt;a href=&quot;https://github.com/HCLonely/hexo-theme-webstack&quot; class=&quot;github-corner&quot; aria-label=&quot;View source on GitHub&quot;&gt;&lt;svg width=&quot;80&quot; height=&quot;80&quot; viewBox=&quot;0 0 250 250&quot; style=&quot;fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2&quot; fill=&quot;currentColor&quot; style=&quot;transform-origin: 130px 106px;&quot; class=&quot;octo-arm&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z&quot; fill=&quot;currentColor&quot; class=&quot;octo-body&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;style&gt;.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100<span class="hljs-template-variable">%{transform:rotate(0)}</span>20%,60<span class="hljs-template-variable">%{transform:rotate(-25deg)}</span>40%,80<span class="hljs-template-variable">%{transform:rotate(10deg)}</span>}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}&lt;/style&gt;&apos;</span>
+</code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/HCLonely/images@latest/post/3cd4fb34/github.webp" alt="github"></p>
+<h3 id="since"><a class="markdownIt-Anchor" href="#since"></a> since</h3>
+<blockquote>
+<p>&#x5EFA;&#x7AD9;&#x5E74;&#x4EFD;&#xFF0C;&#x663E;&#x793A;&#x5728;&#x9875;&#x9762;&#x5E95;&#x90E8;</p>
+</blockquote>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">since:</span> <span class="hljs-number">2020</span>
+</code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/HCLonely/images@latest/post/3cd4fb34/since.webp" alt="since"></p>
+<h3 id="menu"><a class="markdownIt-Anchor" href="#menu"></a> menu</h3>
+<blockquote>
+<p><strong>[&#x4E3B;&#x8981;]&#x4FA7;&#x8FB9;&#x680F;&#x83DC;&#x5355;&#x8BBE;&#x7F6E;</strong></p>
+</blockquote>
+<ul>
+<li>name: &#x5206;&#x7EC4;&#x540D;</li>
+<li>icon: &#x5206;&#x7EC4;&#x56FE;&#x6807;</li>
+<li>config: [&#x4E3B;&#x8981;]&#x5206;&#x7EC4;&#x5185;&#x5BB9;(&#x8BE6;&#x7EC6;&#x8BBE;&#x7F6E;&#x67E5;&#x770B;<a href="#config">Config</a>)&#xFF0C;&#x5982;&#x679C;&#x6709;&#x4E8C;&#x7EA7;&#x83DC;&#x5355;&#x5219;&#x4E0D;&#x9700;&#x8981;&#x6B64;&#x9879;&#xFF01;</li>
+<li>submenu: &#x4E8C;&#x7EA7;&#x83DC;&#x5355;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x4E8C;&#x7EA7;&#x83DC;&#x5355;&#x5219;&#x4E0D;&#x9700;&#x8981;<code>config</code>, &#x6B64;&#x9009;&#x9879;&#x5185;&#x5BB9;&#x5305;&#x542B;<code>name</code>, <code>icon</code>, <code>config</code>&#x9009;&#x9879;</li>
+</ul>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">menu:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">&#x5E38;&#x7528;&#x5DE5;&#x5177;</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">far</span> <span class="hljs-string">fa-star</span>
+    <span class="hljs-attr">config:</span> <span class="hljs-string">hotTools</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">&#x5176;&#x4ED6;&#x5DE5;&#x5177;</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-tools</span>
+    <span class="hljs-attr">submenu:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">&#x5F00;&#x53D1;&#x5DE5;&#x5177;</span>
+        <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-tools</span>
+        <span class="hljs-attr">config:</span> <span class="hljs-string">devTools</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">&#x6211;&#x7684;&#x535A;&#x5BA2;</span>
+        <span class="hljs-attr">icon:</span> <span class="hljs-string">fas</span> <span class="hljs-string">fa-blog</span>
+        <span class="hljs-attr">config:</span> <span class="hljs-string">myBlog</span>
+</code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/HCLonely/images@latest/post/3cd4fb34/menu.webp" alt="menu"></p>
+<h3 id="about"><a class="markdownIt-Anchor" href="#about"></a> about</h3>
+<blockquote>
+<p>&#x4FA7;&#x8FB9;&#x680F;&#x7684;&#x5173;&#x4E8E;&#x672C;&#x7AD9;</p>
+</blockquote>
+<ul>
+<li>url: &#x5173;&#x4E8E;&#x9875;&#x9762;&#x94FE;&#x63A5;</li>
+<li>name: &#x5728;&#x4FA7;&#x8FB9;&#x680F;&#x663E;&#x793A;&#x7684;&#x6587;&#x5B57;</li>
+<li>icon: &#x56FE;&#x6807;</li>
+</ul>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">about:</span>
+  <span class="hljs-attr">url:</span> <span class="hljs-string">/about/</span>
+  <span class="hljs-attr">icon:</span> <span class="hljs-string">far</span> <span class="hljs-string">fa-heart</span>
+  <span class="hljs-attr">name:</span> <span class="hljs-string">&#x5173;&#x4E8E;&#x672C;&#x7AD9;</span>
+</code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/HCLonely/images@latest/post/3cd4fb34/about.webp" alt="about"></p>
+<h3 id="aboutpage"><a class="markdownIt-Anchor" href="#aboutpage"></a> aboutPage</h3>
+<blockquote>
+<p>&#x5173;&#x4E8E;&#x9875;&#x9762;&#x8BBE;&#x7F6E;</p>
+</blockquote>
+<ol>
+<li>&#x751F;&#x6210;&#x5173;&#x4E8E;&#x9875;&#x9762;</li>
+</ol>
+<pre class="highlight"><code class="shell">hexo new page about
+</code></pre>
+<ol start="2">
+<li>&#x7F16;&#x8F91;<code>source/about/index.md</code>, &#x6DFB;&#x52A0;<code>type: &apos;about&apos;</code></li>
+</ol>
+<pre class="highlight"><code class="yml"><span class="hljs-meta">---</span>
+<span class="hljs-attr">title:</span> <span class="hljs-string">about</span>
+<span class="hljs-attr">date:</span> <span class="hljs-number">2020</span><span class="hljs-number">-06</span><span class="hljs-number">-04</span> <span class="hljs-number">18</span><span class="hljs-string">:11:54</span>
+<span class="hljs-attr">type:</span> <span class="hljs-string">&apos;about&apos;</span>
+<span class="hljs-meta">---</span>
+</code></pre>
+<ol start="3">
+<li>&#x7F16;&#x8F91;&#x4E3B;&#x9898;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;<code>aboutPage</code></li>
+</ol>
+<ul>
+<li>website: &#x5173;&#x4E8E;&#x672C;&#x7AD9;&#x5185;&#x5BB9;
+<ul>
+<li>head: &#x6807;&#x9898;</li>
+<li>html: &#x5185;&#x5BB9;&#xFF0C;&#x652F;&#x6301;<code>html</code>&#x8BED;&#x6CD5;</li>
+</ul>
+</li>
+<li>webmaster: &#x5173;&#x4E8E;&#x7AD9;&#x957F;&#x5185;&#x5BB9;
+<ul>
+<li>head: &#x6807;&#x9898;</li>
+<li>name: &#x7AD9;&#x957F;&#x540D;&#x5B57;</li>
+<li>url: &#x94FE;&#x63A5;</li>
+<li>img: &#x5934;&#x50CF;</li>
+<li>description: &#x63CF;&#x8FF0;</li>
+<li>html: &#x5176;&#x4ED6;&#x5185;&#x5BB9;&#xFF0C;&#x652F;&#x6301;<code>html</code>&#x8BED;&#x6CD5;</li>
+</ul>
+</li>
+</ul>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">aboutPage:</span>
+  <span class="hljs-attr">website:</span> 
+    <span class="hljs-attr">head:</span> <span class="hljs-string">&#x5173;&#x4E8E;&#x672C;&#x7AD9;</span>
+    <span class="hljs-attr">html:</span> <span class="hljs-string">&apos;&lt;blockquote&gt;&lt;p&gt;&#x672C;&#x7AD9;&#x662F;hexo&#x4E3B;&#x9898;&lt;a href=&quot;https://github.com/HCLonely/hexo-theme-webstack&quot;&gt;hexo-theme-webstack&lt;/a&gt;&#x7684;demo&#x7AD9;&#x3002;&lt;/p&gt;&lt;/blockquote&gt;&apos;</span>
+  <span class="hljs-attr">webmaster:</span>
+    <span class="hljs-attr">head:</span> <span class="hljs-string">&#x5173;&#x4E8E;&#x7AD9;&#x957F;</span>
+    <span class="hljs-attr">name:</span> <span class="hljs-string">HCLonely</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">https://blog.hclonely.com/</span>
+    <span class="hljs-attr">img:</span> <span class="hljs-string">/images/logos/myblog.png</span>
+    <span class="hljs-attr">description:</span> <span class="hljs-string">&#x61D2;&#x4EBA;&#x4E00;&#x4E2A;</span>
+    <span class="hljs-attr">html:</span> <span class="hljs-string">&apos;&lt;br /&gt;&lt;blockquote&gt;&lt;p&gt;&#x672C;&#x7AD9;&#x662F;&lt;a href=&quot;https://github.com/HCLonely&quot;&gt;HCLonely&lt;/a&gt;&#x57FA;&#x4E8E;&lt;a href=&quot;https://github.com/WebStackPage/WebStackPage.github.io&quot;&gt;WebStackPage&lt;/a&gt;&#x9879;&#x76EE;&#x505A;&#x7684;&#x4E00;&#x6B3E;&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;&#x4E3B;&#x9898;&#x3002;&lt;/p&gt;&lt;/blockquote&gt;&apos;</span>
+</code></pre>
+<p><img src="https://cdn.jsdelivr.net/gh/HCLonely/images@latest/post/3cd4fb34/aboutPage.webp" alt="aboutPage"></p>
+<h2 id="config"><a class="markdownIt-Anchor" href="#config"></a> config</h2>
+<blockquote>
+<p>[&#x4E3B;&#x8981;]&#x7F51;&#x7AD9;&#x5185;&#x5BB9;&#x8BBE;&#x7F6E;</p>
+</blockquote>
+<h3 id="&#x53C2;&#x6570;"><a class="markdownIt-Anchor" href="#&#x53C2;&#x6570;"></a> &#x53C2;&#x6570;</h3>
+<ul>
+<li>name: &#x7F51;&#x7AD9;&#x540D;&#x79F0;</li>
+<li>url: &#x7F51;&#x7AD9;&#x94FE;&#x63A5;</li>
+<li>img: &#x7F51;&#x7AD9;&#x56FE;&#x6807;</li>
+<li>description: &#x7F51;&#x7AD9;&#x63CF;&#x8FF0;</li>
+</ul>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">HCLonely</span> <span class="hljs-string">Blog</span>
+  <span class="hljs-attr">url:</span> <span class="hljs-string">https://blog.hclonely.com/</span>
+  <span class="hljs-attr">img:</span> <span class="hljs-string">/images/logos/myBlog.png</span>
+  <span class="hljs-attr">description:</span> <span class="hljs-string">&#x4E00;&#x4E2A;&#x61D2;&#x4EBA;&#x7684;&#x535A;&#x5BA2;&#x3002;</span>
+</code></pre>
+<h3 id="&#x5173;&#x8054;&#x8BBE;&#x7F6E;&#x540D;&#x79F0;&#x5E76;&#x6DFB;&#x52A0;&#x7F51;&#x7AD9;"><a class="markdownIt-Anchor" href="#&#x5173;&#x8054;&#x8BBE;&#x7F6E;&#x540D;&#x79F0;&#x5E76;&#x6DFB;&#x52A0;&#x7F51;&#x7AD9;"></a> &#x5173;&#x8054;&#x8BBE;&#x7F6E;&#x540D;&#x79F0;&#x5E76;&#x6DFB;&#x52A0;&#x7F51;&#x7AD9;</h3>
+<p>&#x5728;<code>menu</code>&#x548C;<code>submenu</code>&#x4E2D;&#x8BBE;&#x7F6E;&#x7684;<code>config</code>&#x7684;&#x5185;&#x5BB9;&#x4E3A;&#x6B64;&#x9009;&#x9879;&#x7684;&#x540D;&#x79F0;&#x3002;</p>
+<p>&#x4F8B;<code>menu</code>&#xFF1A;</p>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">menu:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">&#x5E38;&#x7528;&#x5DE5;&#x5177;</span>
+    <span class="hljs-attr">icon:</span> <span class="hljs-string">far</span> <span class="hljs-string">fa-star</span>
+    <span class="hljs-attr">config:</span> <span class="hljs-string">hotTools</span>
+</code></pre>
+<p>&#x5219;<code>&#x5E38;&#x7528;&#x5DE5;&#x5177;</code>&#x5206;&#x7EC4;&#x91CC;&#x7684;&#x7F51;&#x7AD9;&#x6709;&#x4EE5;&#x4E0B;&#x4E24;&#x79CD;&#x6DFB;&#x52A0;&#x65B9;&#x5F0F;&#xFF1A;</p>
+<ul>
+<li>&#x5728;&#x4E3B;&#x9898;&#x7684;<code>_config.yml</code>&#x91CC;&#x6DFB;&#x52A0;&#xFF1A;</li>
+</ul>
+<pre class="highlight"><code class="yml"><span class="hljs-attr">hotTools:</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">HCLonely</span> <span class="hljs-string">Blog</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">https://blog.hclonely.com/</span>
+    <span class="hljs-attr">img:</span> <span class="hljs-string">/images/logos/myBlog.png</span>
+    <span class="hljs-attr">description:</span> <span class="hljs-string">&#x4E00;&#x4E2A;&#x61D2;&#x4EBA;&#x7684;&#x535A;&#x5BA2;&#x3002;</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Github</span>
+    <span class="hljs-attr">url:</span> <span class="hljs-string">https://github.com/</span>
+    <span class="hljs-attr">img:</span> <span class="hljs-string">/images/logos/github.png</span>
+    <span class="hljs-attr">description:</span> <span class="hljs-string">&#x9762;&#x5411;&#x5F00;&#x6E90;&#x53CA;&#x79C1;&#x6709;&#x8F6F;&#x4EF6;&#x9879;&#x76EE;&#x7684;&#x6258;&#x7BA1;&#x5E73;&#x53F0;&#x3002;</span>
+</code></pre>
+<ul>
+<li>&#x5728;<code>&#x7AD9;&#x70B9;&#x6839;&#x76EE;&#x5F55;/source/_data/</code>(&#x6CA1;&#x6709;&#x81EA;&#x884C;&#x521B;&#x5EFA;)&#x5185;&#x65B0;&#x5EFA;<code>hotTools.yml</code>&#x6587;&#x4EF6;&#xFF0C;&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#x5982;&#x4E0B;&#xFF1A;</li>
+</ul>
+<pre class="highlight"><code class="yml"><span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">HCLonely</span> <span class="hljs-string">Blog</span>
+  <span class="hljs-attr">url:</span> <span class="hljs-string">https://blog.hclonely.com/</span>
+  <span class="hljs-attr">img:</span> <span class="hljs-string">/images/logos/myBlog.png</span>
+  <span class="hljs-attr">description:</span> <span class="hljs-string">&#x4E00;&#x4E2A;&#x61D2;&#x4EBA;&#x7684;&#x535A;&#x5BA2;&#x3002;</span>
+<span class="hljs-bullet">-</span> <span class="hljs-attr">name:</span> <span class="hljs-string">Github</span>
+  <span class="hljs-attr">url:</span> <span class="hljs-string">https://github.com/</span>
+  <span class="hljs-attr">img:</span> <span class="hljs-string">/images/logos/github.png</span>
+  <span class="hljs-attr">description:</span> <span class="hljs-string">&#x9762;&#x5411;&#x5F00;&#x6E90;&#x53CA;&#x79C1;&#x6709;&#x8F6F;&#x4EF6;&#x9879;&#x76EE;&#x7684;&#x6258;&#x7BA1;&#x5E73;&#x53F0;&#x3002;</span>
+</code></pre>
+<p>&#x4EE5;&#x4E0A;&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#x4EFB;&#x9009;&#x4E00;&#x79CD;&#x5373;&#x53EF;&#xFF0C;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;&#x7B2C;&#x4E8C;&#x79CD;&#x3002;</p>
+
+          
+            <div class="article_footer">
+              
+                
+  
+
+  
+    
+    
+  
+
+  
+    
+    
+<section class="widget copyright  desktop mobile">
+  <div class="content">
+    
+      <blockquote>
+        
+          
+            <p>&#x535A;&#x5BA2;&#x5185;&#x5BB9;&#x9075;&#x5FAA; &#x7F72;&#x540D;-&#x975E;&#x5546;&#x4E1A;&#x6027;&#x4F7F;&#x7528;-&#x76F8;&#x540C;&#x65B9;&#x5F0F;&#x5171;&#x4EAB; 4.0 &#x56FD;&#x9645; (CC BY-NC-SA 4.0) &#x534F;&#x8BAE;</p>
+
+          
+        
+          
+            <p>&#x672C;&#x6587;&#x6C38;&#x4E45;&#x94FE;&#x63A5;&#x662F;&#xFF1A;<a href="https://volantis.hclonely.com/posts/3cd4fb34/">https://volantis.hclonely.com/posts/3cd4fb34/</a></p>
+          
+        
+      </blockquote>
+    
+  </div>
+</section>
+
+  
+
+  
+    
+    
+<section class="widget qrcode  desktop mobile">
+  
+  <div class="content article-entry">
+    
+      
+        <div class="fancybox"><img src="/img/wechat.png" height="64px"></div>
+      
+    
+      
+        <div class="fancybox"><img src="/img/alipay.jpg" height="64px"></div>
+      
+    
+  </div>
+</section>
+
+  
+
+
+              
+            </div>
+          
+        </div>
+        
+          <section class="meta" id="footer-meta">
+    <div class="new-meta-box">
+      
+        
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-07-09T08:32:53+00:00">
+  <a class="notlink">
+    <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
+    <p>&#x66F4;&#x65B0;&#x4E8E;&#xFF1A;2020&#x5E74;7&#x6708;9&#x65E5;</p>
+  </a>
+</div>
+
+        
+      
+        
+          <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Hexo/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>Hexo</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E4%B8%BB%E9%A2%98/" rel="nofollow"><i class="fas fa-hashtag fa-fw" aria-hidden="true"></i><p>&#x4E3B;&#x9898;</p></a></div>
+
+
+        
+      
+        
+          <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
+    
+      
+        <a class="-mob-share-qq" title rel="external nofollow noopener noreferrer" href="http://connect.qq.com/widget/shareqq/index.html?url=https://volantis.hclonely.com/posts/3cd4fb34/&amp;title=&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;webstack&#x7684;hexo&#x4E3B;&#x9898; - HCLonely Blog&amp;summary=
+&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;WebStackPage&#x7684; Hexo &#x4E3B;&#x9898;&#x3002;Demo
+
+">
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title rel="external nofollow noopener noreferrer" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://volantis.hclonely.com/posts/3cd4fb34/&amp;title=&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;webstack&#x7684;hexo&#x4E3B;&#x9898; - HCLonely Blog&amp;summary=
+&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;WebStackPage&#x7684; Hexo &#x4E3B;&#x9898;&#x3002;Demo
+
+">
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qzone.png">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title rel="external nofollow noopener noreferrer" href="http://service.weibo.com/share/share.php?url=https://volantis.hclonely.com/posts/3cd4fb34/&amp;title=&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;webstack&#x7684;hexo&#x4E3B;&#x9898; - HCLonely Blog&amp;summary=
+&#x4E00;&#x6B3E;&#x57FA;&#x4E8E;WebStackPage&#x7684; Hexo &#x4E3B;&#x9898;&#x3002;Demo
+
+">
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png">
+          
+        </a>
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+  </section>
+
+
+        
+        
+          <div class="prev-next">
+            
+            
+              <a class="next" href="/posts/ac04080d/">
+                <p class="title">&#x4F7F;&#x7528;cron-job&#x89E3;&#x51B3;Valine-admin&#x56E0;&#x6D41;&#x63A7;&#x539F;&#x56E0;&#x81EA;&#x52A8;&#x5524;&#x9192;&#x5931;&#x8D25;&#x7684;&#x95EE;&#x9898;<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+                <p class="content">&#x5206;&#x7AD9;&#x5185;&#x5BB9;&#x53EF;&#x80FD;&#x6216;&#x51FA;&#x73B0;&#x6E32;&#x67D3;&#x9519;&#x8BEF;&#x6216;&#x5185;&#x5BB9;&#x8FC7;&#x65F6;&#x7B49;&#x95EE;&#x9898;&#xFF0C;&#x8BF7;&#x4EE5;&#x4E3B;&#x7AD9;&#x4E3A;&#x51C6;&#xFF01;&#x5206;&#x7AD9;&#x7981;&#x6B62;&#x8BC4;&#x8BBA;&#xFF0C;&#x8BC4;&#x8BBA;&#x8BF7;&#x524D;&#x5F80;&#x4E3B;&#x7AD9;&#xFF01;Valine-admin&#x7531;&#x4E8E;Leancloud&#x6D41;&#x63A7;...</p>
+              </a>
+            
+          </div>
+        
+      </section>
+    </article>
+  
+
+  
+    <!-- 显示推荐文章和评论 -->
+  
+
+
+
+
+
+
+
+
+  <script>
+    window.subData = {
+      title: '一款基于webstack的hexo主题',
+      tools: true
+    }
+  </script>
+
+
+</div>
+<aside class="l_side">
+  
+
+  <section class="widget toc-wrapper shadow desktop mobile">
+    <header>
+    
+      <i class="fas fa-list fa-fw" aria-hidden="true"></i><span class="name">&#x672C;&#x6587;&#x76EE;&#x5F55;</span>
+    
+  </header>
+
+
+    <div class="content">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#&#x5B89;&#x88C5;"><span class="toc-text"> &#x5B89;&#x88C5;</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#&#x914D;&#x7F6E;"><span class="toc-text"> &#x914D;&#x7F6E;</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#favicon"><span class="toc-text"> favicon</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#banner"><span class="toc-text"> banner</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#logo"><span class="toc-text"> logo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#flag"><span class="toc-text"> flag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#githubcorner"><span class="toc-text"> githubCorner</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#since"><span class="toc-text"> since</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#menu"><span class="toc-text"> menu</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#about"><span class="toc-text"> about</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#aboutpage"><span class="toc-text"> aboutPage</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#config"><span class="toc-text"> config</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#&#x53C2;&#x6570;"><span class="toc-text"> &#x53C2;&#x6570;</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#&#x5173;&#x8054;&#x8BBE;&#x7F6E;&#x540D;&#x79F0;&#x5E76;&#x6DFB;&#x52A0;&#x7F51;&#x7AD9;"><span class="toc-text"> &#x5173;&#x8054;&#x8BBE;&#x7F6E;&#x540D;&#x79F0;&#x5E76;&#x6DFB;&#x52A0;&#x7F51;&#x7AD9;</span></a></li></ol></li></ol>
+    </div>
+  </section>
+
+
+  
+
+
+</aside>
+
+<footer class="clearfix">
+    <br><br>
+    
+      
+        <div class="aplayer-container">
+          
+        </div>
+      
+    
+      
+        <br>
+        <div class="social-wrapper">
+          
+            
+              <a href="/atom.xml" class="social fas fa-rss flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="mailto:h1606051253@gmail.com" class="social fas fa-envelope flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+            
+              <a href="https://github.com/HCLonely" class="social fab fa-github flat-btn" target="_blank" rel="external nofollow noopener noreferrer">
+              </a>
+            
+          
+        </div>
+      
+    
+      
+        <div><p>&#x535A;&#x5BA2;&#x5185;&#x5BB9;&#x9075;&#x5FAA; <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">&#x7F72;&#x540D;-&#x975E;&#x5546;&#x4E1A;&#x6027;&#x4F7F;&#x7528;-&#x76F8;&#x540C;&#x65B9;&#x5F0F;&#x5171;&#x4EAB; 4.0 &#x56FD;&#x9645; (CC BY-NC-SA 4.0) &#x534F;&#x8BAE;</a></p>
+</div>
+      
+    
+      
+        &#x672C;&#x7AD9;&#x4F7F;&#x7528;
+        <a href="https://github.com/xaoxuu/hexo-theme-volantis" target="_blank" class="codename">Volantis</a>
+        &#x4F5C;&#x4E3A;&#x4E3B;&#x9898;&#xFF0C;&#x603B;&#x8BBF;&#x95EE;&#x91CF;&#x4E3A;
+          <span id="busuanzi_value_site_pv"><i class="fas fa-circle-notch fa-spin fa-fw" aria-hidden="true"></i></span>
+          &#x6B21;
+        
+      
+    
+      
+        <div class="copyright">
+        <p><a href="https://blog.hclonely.com" target="_blank" rel="noopener">Copyright &#xA9; 2020 HCLonely</a></p>
+
+        </div>
+      
+    
+  </footer>
+
+<script>setLoadingBarProgress(80);</script>
+
+
+      <script>setLoadingBarProgress(60);</script>
+    </div>
+    <a class="s-top fas fa-arrow-up fa-fw" href="javascript:void(0)"></a>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.4/dist/jquery.min.js"></script>
+
+
+  <script>
+    
+    var SEARCH_SERVICE = "hexo" || "hexo";
+    var ROOT = "/" || "/";
+    if (!ROOT.endsWith('/')) ROOT += '/';
+  </script>
+
+
+  <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      ScrollReveal().reveal('.l_main .reveal', {
+        distance: '8px',
+        duration: '800',
+        interval: '100',
+        scale: '1'
+      });
+    });
+  </script>
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
+
+  <script type="text/javascript">
+    $(function() {
+      Waves.attach('.flat-btn', ['waves-button']);
+      Waves.attach('.float-btn', ['waves-button', 'waves-float']);
+      Waves.attach('.float-btn-light', ['waves-button', 'waves-float', 'waves-light']);
+      Waves.attach('.flat-box', ['waves-block']);
+      Waves.attach('.float-box', ['waves-block', 'waves-float']);
+      Waves.attach('.waves-image');
+      Waves.init();
+    });
+  </script>
+
+
+  <script defer src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/HCLonely/volantis.hclonely.com@gh-pages/js/app.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.6.5/js/search.js"></script>
+
+
+
+  
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/comment_typing.js"></script>
+
+
+
+
+  
+    
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+  
+
+
+
+<!-- 复制 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('fa-copy');
+        $icon.addClass('fa-check-circle');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('fa-check-circle');
+          $icon.addClass('fa-copy');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('fa-copy');
+        $icon.addClass('fa-times-circle');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('fa-times-circle');
+          $icon.addClass('fa-copy');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+    }
+    initCopyCode();
+  }(window, document);
+</script>
+<link rel="alternate" href="/atom.xml" title="HCLonely Blog" type="application/atom+xml">
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script>
+  function pjax_fancybox() {
+    $(".article-entry").find("img").not('.inline').not('a img').each(function () { //渲染 fancybox
+      var element = document.createElement("a"); // a 标签
+      $(element).attr("pjax-fancybox", "");  // 过滤 pjax
+      $(element).attr("href", $(this).attr("src"));
+      if ($(this).attr("data-original")) {
+        $(element).attr("href", $(this).attr("data-original"));
+      }
+      $(element).attr("data-fancybox", "images");
+      var caption = "";   // 描述信息
+      if ($(this).attr('alt')) {  // 标准 markdown 描述信息
+        $(element).attr('data-caption', $(this).attr('alt'));
+        caption = $(this).attr('alt');
+      }
+      var div = document.createElement("div");
+      $(div).addClass("fancybox");
+      $(this).wrap(div); // 最外层套 div ，其实主要作用还是 class 样式
+      var span = document.createElement("span");
+      $(span).addClass("image-caption");
+      $(span).text(caption); // 加描述
+      $(this).after(span);  // 再套一层描述
+      $(this).wrap(element);  // 最后套 a 标签
+    })
+    $(".article-entry").find("img").fancybox({
+      selector: '[data-fancybox="images"]',
+      hash: false,
+      loop: false,
+      closeClick: true,
+      helpers: {
+        overlay: {closeClick: true}
+      },
+      buttons: [
+        "zoom",
+        "close"
+      ]
+    });
+  };
+  $(function () {
+    pjax_fancybox();
+  });
+</script>
+
+
+
+
+  <script>setLoadingBarProgress(100);</script>
+
+
+</body></html><!-- 根据页面mathjax变量决定是否加载MathJax数学公式js --><!-- fancybox -->
